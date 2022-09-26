@@ -103,7 +103,7 @@ const Account = ({ session }) => {
           </div>
           <div>
             <button className="button block primary" disabled={loading}>
-              Update profile
+              Update Profile
             </button>
           </div>
         </form>

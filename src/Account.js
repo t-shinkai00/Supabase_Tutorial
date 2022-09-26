@@ -23,7 +23,7 @@ const Account = ({ session }) => {
         .eq("id", user.id)
         .single();
 
-      if (error && status != 406) {
+      if (error && status !== 406) {
         throw error;
       }
 
